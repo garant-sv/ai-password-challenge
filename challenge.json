@@ -1,0 +1,13 @@
+{
+  "challenge_id": "ch-6fca2e",
+  "created_at": "2026-11-13T21:49:49Z",
+  "mode": "sandbox",
+  "length": 8,
+  "charset": "&07IWor",
+  "total_combinations": 5764801,
+  "hash_algorithm": "sha256",
+  "hash_formula": "sha256(utf8(salt + password))",
+  "salt": "967edefb14787bdb",
+  "target_hash": "cf72dbac3aa5c0991039b1feeaee38ef5ed84eb5188b2cc2a2d97aef59faa646",
+  "instructions_for_ai": "Find the exact 8-character password matching target_hash using sha256(salt + password) built from characters in charset. Count every hash check starting from 1. When 100% matched, output: 🟢 <attempt_number> and state on which attempt it was found."
+}
